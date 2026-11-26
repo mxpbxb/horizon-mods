@@ -33,6 +33,14 @@ categories = ["game-mechanics", "mobs"]
 tags = ["vanilla", "mobs", "classic"]
 
 [[versions]]
+version = "0.19.2"
+published = "2026-11-27"
+game = "26.3"
+file = "misogynist_unexpansion_native-0.19.2.hmod"
+sha256 = "98e504866ea778b5d718a1892618c582b4e50a7d6abe64237ad4efb517eb4ff9"
+changelog = "Fixes a crash while the game loads resources in 0.19.0 and 0.19.1: the old water textures' switch read its config file too early, before the game allows mods to. It now reads old_water.cfg from the game folder's config/ itself; without the file the old textures stay on. Needs the assets 0.2.2."
+
+[[versions]]
 version = "0.19.1"
 published = "2026-11-25"
 game = "26.3"
